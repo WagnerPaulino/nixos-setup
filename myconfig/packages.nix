@@ -26,6 +26,7 @@
     spice
     spice-gtk
     gnomeExtensions.dash-to-dock
+    gnomeExtensions.pop-shell
   ];
 
   # Enable background services for dev
