@@ -11,7 +11,13 @@
       ./myconfig/networking.nix
       ./myconfig/users.nix
       ./myconfig/packages.nix
+      <home-manager/nixos>
     ];
+
+  programs.dconf.enable = true;
+  home-manager.useGlobalPkgs = true;
+  home-manager.useUserPackages = true;
+  home-manager.users.wagner = import ./myconfig/home.nix;
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;

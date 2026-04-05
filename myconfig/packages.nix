@@ -25,6 +25,7 @@
     virt-viewer
     spice
     spice-gtk
+    gnomeExtensions.dash-to-dock
   ];
 
   # Enable background services for dev
