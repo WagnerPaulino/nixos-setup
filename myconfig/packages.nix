@@ -28,6 +28,10 @@
     gnomeExtensions.dash-to-dock
     gnomeExtensions.pop-shell
     distrobox
+    kdePackages.kdenlive
+    ffmpeg-full
+    mediainfo
+    kdePackages.glaxnimate
   ];
 
   # Enable background services for dev
