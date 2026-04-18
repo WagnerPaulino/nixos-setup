@@ -13,6 +13,7 @@
       nixdir = "cd /etc/nixos";
       boot = "sudo nixos-rebuild boot";
       switch = "sudo nixos-rebuild switch";
+      java25 = "export JAVA_HOME=${pkgs.javaPackages.compiler.openjdk25} && export PATH=$JAVA_HOME/bin:$PATH";
     };
   };
 

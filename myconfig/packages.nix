@@ -1,6 +1,13 @@
 { pkgs, ... }:
 
 {
+
+  imports =
+  [ # Include the results of the hardware scan.
+    ./android-config.nix
+  ];
+
+
   # Allow unfree software (like VS Code or Discord)
   nixpkgs.config.allowUnfree = true;
 
@@ -33,6 +40,12 @@
     mediainfo
     kdePackages.glaxnimate
   ];
+
+  environment.variables = {
+    CHROME_EXECUTABLE = "${pkgs.google-chrome}";
+    JAVA_HOME = "${pkgs.javaPackages.compiler.openjdk25}";
+  };
+
 
   # Enable background services for dev
   virtualisation.docker.enable = true;
