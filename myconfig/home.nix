@@ -4,6 +4,18 @@
   home.username = "wagner";
   home.homeDirectory = "/home/wagner";
 
+  programs.bash = {
+    enable = true;
+    shellAliases = {
+      ll = "ls -lah";
+      mvnclean = "mvn clean install -DskipTests";
+      mvntest = "mvn clean install test";
+      nixdir = "cd /etc/nixos";
+      boot = "sudo nixos-rebuild boot";
+      switch = "sudo nixos-rebuild switch";
+    };
+  };
+
   # importante
   programs.home-manager.enable = true;
 
