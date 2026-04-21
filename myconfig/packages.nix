@@ -38,7 +38,6 @@
     kdePackages.kdenlive
     ffmpeg-full
     mediainfo
-    kdePackages.glaxnimate
   ];
 
   environment.variables = {
