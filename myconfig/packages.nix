@@ -5,6 +5,7 @@
   imports =
   [ # Include the results of the hardware scan.
     ./android-config.nix
+    ./waydroid-config.nix
   ];
 
 
