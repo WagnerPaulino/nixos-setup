@@ -36,6 +36,7 @@
     gnomeExtensions.dash-to-dock
     gnomeExtensions.pop-shell
     distrobox
+    distroshelf
     kdePackages.kdenlive
     ffmpeg-full
     mediainfo
