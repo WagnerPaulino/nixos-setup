@@ -24,6 +24,7 @@
     vscode
     jetbrains.idea-oss
     javaPackages.compiler.openjdk25
+    postman
     maven
     google-chrome
     adwaita-icon-theme
@@ -34,7 +35,7 @@
     spice
     spice-gtk
     gnomeExtensions.dash-to-dock
-    gnomeExtensions.pop-shell
+#    gnomeExtensions.pop-shell
     distrobox
     distroshelf
     kdePackages.kdenlive

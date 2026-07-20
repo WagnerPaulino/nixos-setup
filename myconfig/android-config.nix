@@ -10,8 +10,7 @@
     android-tools
     usbutils
   ];
-  programs.adb.enable = true;
-  users.users.wagner.extraGroups = [ "adbusers" "kvm" ];
+  users.users.wagner.extraGroups = [ "kvm" ];
   environment.variables = {
     ANDROID_HOME = "$HOME/Android/Sdk";
     ANDROID_SDK_ROOT = "$HOME/Android/Sdk";
