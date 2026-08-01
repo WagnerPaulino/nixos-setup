@@ -25,6 +25,7 @@
     jetbrains.idea-oss
     javaPackages.compiler.openjdk25
     postman
+    dbeaver-bin
     maven
     google-chrome
     adwaita-icon-theme
